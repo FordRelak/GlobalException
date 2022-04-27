@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalExceptionHandler", "src\GlobalExceptionHandler\GlobalExceptionHandler.csproj", "{22A3EE33-A037-4E25-8119-1338ADA50C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D87B6AD3-03B3-4111-AF6D-BE0CE57C4B4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9EA02EDC-71A5-4BBF-80E5-7CB0F366B3A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E2DE387-BFAA-45B7-9577-BAA3F3419490}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalExceptionHandler.Tests.Web", "test\GlobalExceptionHandler.Tests.AspWebApi\GlobalExceptionHandler.Tests.Web.csproj", "{B60CC922-B6FB-4153-B92E-C37503F2E3A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalExceptionHandler.Tests.Service", "test\GlobalExceptionHandler.Tests.Service\GlobalExceptionHandler.Tests.Service.csproj", "{4AFCEF7A-DBE2-48F8-AEE2-21CD4A2F6DEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22A3EE33-A037-4E25-8119-1338ADA50C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A3EE33-A037-4E25-8119-1338ADA50C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A3EE33-A037-4E25-8119-1338ADA50C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A3EE33-A037-4E25-8119-1338ADA50C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60CC922-B6FB-4153-B92E-C37503F2E3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60CC922-B6FB-4153-B92E-C37503F2E3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60CC922-B6FB-4153-B92E-C37503F2E3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60CC922-B6FB-4153-B92E-C37503F2E3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFCEF7A-DBE2-48F8-AEE2-21CD4A2F6DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFCEF7A-DBE2-48F8-AEE2-21CD4A2F6DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFCEF7A-DBE2-48F8-AEE2-21CD4A2F6DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFCEF7A-DBE2-48F8-AEE2-21CD4A2F6DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22A3EE33-A037-4E25-8119-1338ADA50C0D} = {D87B6AD3-03B3-4111-AF6D-BE0CE57C4B4A}
+		{B60CC922-B6FB-4153-B92E-C37503F2E3A3} = {9EA02EDC-71A5-4BBF-80E5-7CB0F366B3A7}
+		{4AFCEF7A-DBE2-48F8-AEE2-21CD4A2F6DEF} = {9EA02EDC-71A5-4BBF-80E5-7CB0F366B3A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8645F68-9AD3-466E-ADFF-2A0607F28091}
+	EndGlobalSection
+EndGlobal
